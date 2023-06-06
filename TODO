@@ -1,3 +1,6 @@
+Лучше работать на одинаковых версиях библиотек (устанавливать из requirements)
+`pip install -r requirements.txt`
+
 Пока есть 4 датасета из которых выбираем
     1. Hotel booking demand
     https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand
