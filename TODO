@@ -1,9 +1,8 @@
-Пока есть 4 датасета из которых выбираем
-    1. Hotel booking demand
-    https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand
-    2. Rain in Australia
-    https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle-package
-    3. Avocado Prices
-    https://www.kaggle.com/datasets/neuromusic/avocado-prices
-    4. Stroke Prediction Dataset (вроде бы Тимур за этот)
-    https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
+template.ipynb - примерный сценарий того как тестим разные подходы.
+
+Главное правильно пошаманить с предобработкой данных и выбрать разумные значения узлов сетки параметров.
+Как это сделать? Поузнавать конкретно про каждый алгоритм и про общие шаги. 
+Можно начать с документации модуля sklearn.cluster
+
+Сравнивать будем ARI моделей. Еще для наглядности посмотрим на Adjusted random mutual info. \
+Мб в процессе добавим еще каких-то метрик
