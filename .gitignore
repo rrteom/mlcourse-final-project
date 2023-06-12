@@ -1,3 +1,6 @@
+# vertual environment
+.venv/
+
 # Tables with data
 *.csv
 
