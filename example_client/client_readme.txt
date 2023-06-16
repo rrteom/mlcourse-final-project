@@ -1,6 +1,6 @@
 this client usage:
 
-python ./example_client <http-address> [row_number]
+python path/to/example_client/example_client.py <http-address> [row_number]
 
 http address for current app configuration: http://localhost:5678
 

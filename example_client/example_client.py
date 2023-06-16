@@ -3,6 +3,7 @@ import pandas as pd
 
 import requests
 import sys
+import os
 
 activity_dict = {
     1: 'inactive',
@@ -17,7 +18,9 @@ activity_dict = {
 
 url = sys.argv[1]
 
-df_init = pd.read_csv('./smallest_sample_for.test')
+dir_path = os.path.abspath(os.path.dirname(__file__))
+
+df_init = pd.read_csv(os.path.join(dir_path, 'smallest_sample_for.test'))
 
 row_number = int(sys.argv[2]) % len(df_init) if len(sys.argv) >= 3 else np.random.randint(len(df_init))
 

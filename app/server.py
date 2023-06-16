@@ -4,6 +4,7 @@ import pickle
 import pandas as pd
 
 from activity_dict import activity_dict
+from lightgbm import LGBMClassifier
 
 from flask import Flask, jsonify, request
 
